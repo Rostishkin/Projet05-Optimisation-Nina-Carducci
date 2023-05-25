@@ -22,6 +22,10 @@ body {
 	font-size: 26px;
 }
 
+a {
+	text-decoration: none;
+	color: #000;
+}
 .nav ul {
 	display: flex;
 	list-style-type: none;
