@@ -4,24 +4,43 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<!--Ajout opti;isation cache-->
+	<meta http-equiv="Cache-control" content="public, max-age=21600">
+	<!--Ajout de preload des images -->
+	<link rel="preload" href="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash.webp" as="image">
+	<link rel="preload" href="./assets/images/slider/nicholas-green-npz8akkumdi-unsplash.webp" as="image">
+	<link rel="preload" href="./assets/images/slider/ryoji-iwata-wuzjnov7t0g-unsplash.webp" as="image">
+	<link rel="preload" href="./assets/images/gallery/concerts/aaron-paul-wnx-fxzb6cw-unsplash.webp" as="image">
+	<link rel="preload" href="./assets/images/gallery/concerts/austin-neill-hgo1wfpxl3i-unsplash.webp" as="image">
+	<link rel="preload" href="./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash_1.webp" as="image">
+	<link rel="preload" href="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash_1.webp" as="image">
+	<link rel="preload" href="./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash_1.webp" as="image">
+	<link rel="preload" href="./assets/images/gallery/mariage/hannah-busing-rvf2r-qmprk-unsplash.webp" as="image">
+	<link rel="preload" href="./assets/images/gallery/mariage/jakob-owens-siniljkxhmc-unsplash.webp" as="image">
+	<link rel="preload" href="./assets/images/gallery/portraits/ade-tunji-rvkhwwzfatq-unsplash.webp" as="image">
+	<link rel="preload" href="./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash.webp" as="image">
+	<link rel="preload" href="./assets/images/nina.webp" as="image">
+	<link rel="preload" href="./assets/images/camera.webp" as="image">
+	<!---Ajout de titre de la page-->
 	<title>Nina Carducci - Photographe</title>
-	<link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon_io/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon_io/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon_io/favicon-16x16.png">
+	<!--Ajout de Favicon-->
+	<link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon_io/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon_io/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon_io/favicon-16x16.png">
 	<link rel="manifest" href="/site.webmanifest">
+	<!--Bootstrap-->
 	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.css">
 	<link rel="stylesheet" href="./assets/style.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
-	<meta charset="UTF-8">
 	<script src="./assets/bootstrap/bootstrap.bundle.js"></script>
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 	<script src="./assets/maugallery.js"></script>
 	<script src="./assets/scripts.js"></script>
 </head>
 <body>
-<div class="top-header">
+<header class="top-header"> <!--changement de header balise-->
 	<h3  class="name"><a href="/index">Nina Carducci</a></h3>
 	<div class="nav">   
 		<ul>
@@ -29,10 +48,10 @@
 			<li><a href="#gallery">Galerie</a></li>
 			<li><a href="#services">Service</a></li>
 			<li><a href="#contact">Contact</a></li>
-			<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank"><img src="assets/images/instagram.webp" alt="Ma page Instagram"></a></li>
+			<li><a class="social-link" title="Instagram" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank"><img src="assets/images/instagram.webp" alt=""></a></li>
 		</ul>
 	</div>
-</div>
+</header>
 <div id="header">
 
 	<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
