@@ -74,7 +74,8 @@ a {
 }
 
 .picture img {
-	width: 100%;
+	width: 390px;
+	height: 390px;
 
 }
 #about-me {
@@ -130,8 +131,8 @@ a {
 }
 .gallery-item {
 	position: absolute;
-	width: 100%;
-	height: 100%;
+	width: 450px;
+	height: 450px;
 	object-fit: cover;
 	padding: .5em;
 }
