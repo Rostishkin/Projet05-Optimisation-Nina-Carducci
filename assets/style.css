@@ -22,7 +22,7 @@ body {
 	font-size: 26px;
 }
 
-a {
+h1 a {
 	text-decoration: none;
 	color: #000;
 }
@@ -37,7 +37,7 @@ a {
 	padding-inline: 10px;
 }
 
-.nav a {
+.nav	a {
 	text-decoration: none;
 	color: #000
 }
@@ -55,6 +55,10 @@ a {
 	padding-block: 100px;
 	position: relative;
 }
+.start-block{
+	height: auto;
+}
+
 
 .picture.left::before {
 	content: ' ';
@@ -79,7 +83,9 @@ a {
 
 }
 #about-me {
-	flex: 2
+	flex: 2;
+	width: 80%;
+	font-size: medium;
 }
 .about-me__title {
 	margin-top: 1em;
@@ -91,10 +97,7 @@ a {
 	font-weight: 800;
 	font-style: italic;
 	width: 60%;
-}
-#about-me p {
-	width: 80%;
-	font-size: 14px;
+	font-size: 1rem;
 }
 
 #gallery {
@@ -135,6 +138,14 @@ a {
 	height: 450px;
 	object-fit: cover;
 	padding: .5em;
+	cursor: pointer;
+}
+.modal-dialog{
+	display: flex !important;
+	justify-content: center;
+	height: 100vh;
+	margin: auto;
+	align-items: center;
 }
 .mg-prev, .mg-next {
 	width: 30px;
@@ -157,6 +168,7 @@ a {
 	font-family: Spectral;
 	font-style: italic;
 	font-weight: 300;
+	font-size: 32px;
 
 }
 .quote__author {
@@ -362,5 +374,17 @@ input[type="submit"] {
 	.picture {
 		width: 80%;
 	}
+	.picture img {
+		width: 240px;
+		height: 240px;
+}
+.gallery-item {
+		width: 375px;
+		height: 375px;
+		padding: .5em;
+}
+.modal-dialog{
+		margin: 1rem;
+}
 }
 
