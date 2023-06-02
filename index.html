@@ -7,7 +7,7 @@
 	<!--Ajout de meta description-->
 	<meta name="artist" content="Nina Carducci">
 	<meta name="keywords" content="shooting, photo, photographie, photographe, retouche, album, portfolio, Bordeaux ">
-	<meta name="description" content="Découvrez le portfolio de Nina Carducci - jeune photographe professionnelle basé à Bordeaux.">
+	<meta name="description" content="Découvrez le portfolio de Nina Carducci - jeune photographe professionnelle basée à Bordeaux.">
 	<!-- Ajout optimisation cache-->
 	<meta http-equiv="Cache-control" content="public, max-age=21600">
 	<!---Ajout de titre de la page-->
@@ -18,19 +18,18 @@
 	<link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon_io/favicon-16x16.png">
 	<link rel="manifest" href="assets/images/favicon_io/site.webmanifest">
 	<!-- Open Graph meta pour Facebook -->
-	<meta property="og:title" content="Titre de la page" />
-	<meta property="og:url" content="http://www.exemple.com/" />
-	<meta property="og:image" content="/assets/images/nina.png" />
-	<meta property="og:description" content="Description de la page" />
-	<meta property="og:site_name" content="Nom du site" />
-	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Nina Carducci - Photographe" />
+	<meta property="og:url" content="https://rostishkin.github.io/Projet05-Optimisation-Nina-Carducci/" />
+	<meta property="og:image" content="https://rostishkin.github.io/Projet05-Optimisation-Nina-Carducci/assets/images/nina.png" />
+	<meta property="og:description" content="Découvrez le portfolio de Nina Carducci - jeune photographe professionnelle basée à Bordeaux." />
+	<meta property="og:site_name" content="Nina Carducci" />
+	<meta property="og:type" content="website" />
 	<!-- Card meta pour Twitter -->
 	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:site" content="@nomtwitter">
-	<meta name="twitter:title" content="Titre de la page" />
-	<meta name="twitter:description" content="Description de la page : moins de 200 caractères" />
-	<!-- Twitter summary card avec image large de 280x150px -->
-	<meta name="twitter:image:src" content="https://www.exemple.com/wa_files/image-twitter.png" />
+	<meta name="twitter:site" content="@">
+	<meta name="twitter:title" content="Nina Carducci" />
+	<meta name="twitter:description" content="Découvrez le portfolio de Nina Carducci - jeune photographe professionnelle basée à Bordeaux." />
+	<meta name="twitter:image:src" content="https://rostishkin.github.io/Projet05-Optimisation-Nina-Carducci/assets/images/nina.png" />
 	<!-- Epingle Pinterest -->
 	<meta property="og:type" content="article" />
 	<meta property="og:title" content="Titre de la page" />
@@ -67,7 +66,7 @@
 </head>
 <body>
 <header class="top-header"> <!--Ajout de balise header-->
-	<h3  class="name">Nina Carducci</a></h3>
+	<h1  class="name">Nina Carducci</a></h1>
 	<nav class="nav">   
 		<ul>
 			<li><a href="#about">À propos</a></li>
@@ -89,24 +88,72 @@
 			<div class="carousel-inner">
 				<div class="carousel-item active">
 					<img
-						class="start-block"
-						src="/assets/images/slider/pedestrian/pedestian.webp"
+						class="d-block w-100"
+						srcset="./assets/images/slider/pedestrian/pedestian-400w.avif 400w,
+								./assets/images/slider/pedestrian/pedestian-600w.avif 600w,
+								./assets/images/slider/pedestrian/pedestian-800w.avif 800w,
+								./assets/images/slider/pedestrian/pedestian-1000w.avif 1000w,
+								./assets/images/slider/pedestrian/pedestian-1200w.avif 1200w,
+								./assets/images/slider/pedestrian/pedestian-1600w.avif 1600w,
+								./assets/images/slider/pedestrian/pedestian.webp 1920w"
+						sizes="(max-width: 400px) 400px,
+								(max-width: 600px) 600px,
+								(max-width: 800px) 800px,
+								(max-width: 1000px) 1000px,
+								(max-width: 1200px) 1200px,
+								(max-width: 1600px) 1600px,
+								(min-width:1601px) 1920px"
+						src="./assets/images/slider/pedestrian/pedestian.webp"
 						alt="Homme traversant un passage piéton"
+						width="1920"
+						height="889"
 					/>
+				</div>
+				<div class="carousel-item">
 					<img
-						class="start-block"
-						srcset="concert-visitors-400w.avif 400w, concert-visitors-600w.avif 600w, concert-visitors-800w.avif 800w, concert-visitors-1000w.avif 1000w, concert-visitors-1200w.avif 1200w, concert-visitors-1600w.avif 1600w"
-						sizes="(max-width: 400px) 400px, (max-width: 600px) 600px, (max-width: 800px) 800px, (max-width: 1000px) 1000px, (max-width: 1200px) 1200px, (min-width: 1201px) 1600px"
-						src="/assets/images/slider/concert/concert-visitors.webp"
-						alt="Visiteurs d'un concert"
+						class="d-block w-100"
+						srcset="./assets/images/slider/concert/concert-visitors-400w.avif 400w,
+								./assets/images/slider/concert/concert-visitors-600w.avif 600w,
+								./assets/images/slider/concert/concert-visitors-800w.avif 800w,
+								./assets/images/slider/concert/concert-visitors-1000w.avif 1000w,
+								./assets/images/slider/concert/concert-visitors-1200w.avif 1200w,
+								./assets/images/slider/concert/concert-visitors-1600w.avif 1600w,
+								./assets/images/slider/concert/concert-visitors.webp 1920w"
+						sizes="(max-width: 400px) 400px,
+								(max-width: 600px) 600px,
+								(max-width: 800px) 800px,
+								(max-width: 1000px) 1000px,
+								(max-width: 1200px) 1200px,
+								(max-width: 1600px) 1600px,
+								(min-width:1601px) 1920px"
+						src="./assets/images/slider/concert/concert-visitors.webp"
+						alt="Les visiteurs d'un concert"
 						width="1920"
 						height="888"
-						loading="lazy"
 						/>
 				</div>
 				<div class="carousel-item">
-				</div>
-				<div class="carousel-item">
+					<img
+						class="d-block w-100"
+						srcset="./assets/images/slider/kiss/ceremony-kiss-400w.avif 400w,
+								./assets/images/slider/kiss/ceremony-kiss-600w.avif 600w,
+								./assets/images/slider/kiss/ceremony-kiss-800w.avif 800w,
+								./assets/images/slider/kiss/ceremony-kiss-1000w.avif 1000w,
+								./assets/images/slider/kiss/ceremony-kiss-1200w.avif 1200w,
+								./assets/images/slider/kiss/ceremony-kiss-1600w.avif 1600w"
+						sizes="(max-width: 400px) 400px,
+								(max-width: 600px) 600px,
+								(max-width: 800px) 800px,
+								(max-width: 1000px) 1000px,
+								(max-width: 1200px) 1200px,
+								(min-width: 1201px) 1600px"
+						src="./assets/images/slider/kiss/ceremony-kiss.webp"
+						alt="Le baisé de jeunes mariés"
+						width="1920"
+						height="887"
+						loading="lazy"
+						src="./assets/images/slider/kiss/ceremony-kiss.webp"
+					/>
 				</div>
 			</div>
 			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -125,24 +172,24 @@
 				<img src="./assets/images/nina.png" alt="Nina Carducci - Photographe">
 			</div>
 			<div id="about-me">
-				<h1 class="about-me__title">A propos de moi</h2>
+				<h2 class="about-me__title">A propos de moi</h2>
 				<p class="about-me__introduction">Devenir photographe était pour moi une évidence. Comme si j’y étais prédestiné. Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre immortels, voilà ce qui me fait vibrer.</p>
 				<p>Nous passons notre vie à chercher le bonheur, et lorsque nous y touchons, nous n’avons qu’une envie : le figer au travers de photographies pour le savourer avec les personnes qui sont importantes à nos yeux, ou le partager au plus grand nombre.
 				C’est ce que je vous propose : saisir ces merveilleux moments au travers de mon regard, mon approche, ma technique. Rendre ces moments immortels, afin que vous puissiez y puiser de l’amour, du bonheur, de la tendresse et de lumière à chaque fois que vous poserez les yeux sur vos photos.</p>
 				</div>
 		</section>
 		<section id="gallery">
-			<h2 class="title">Portfolio</h2>
+			<h3 class="title">Portfolio</h3>
 			<div class="container py-3">
 				<div class="gallery" style="display: none">
-					<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/red-light.webp" alt="Concert"/>
+					<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/red-light/red-light.webp" alt="Concert"/>
 					<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/businessman.webp" alt="Portrait d'un homme d'affaires"/>
 					<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/meeting-work.webp" alt="Meeting d'entreprise"/>
 					<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/hands.webp" alt="Photo de mains d'un couple"/>
 					<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/eyes-closed.webp" alt="Portrait d'un homme"/>
 					<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/wedding.webp" alt="Les mariés"/>
 					<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/glasses-girl.webp" alt="Jeune fille aux lunettes"/>
-					<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/scene-artist.webp" alt="Artiste en concert"/>
+					<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/scene-artist/scene-artist.webp" alt="Artiste en concert"/>
 					<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/laught-work.webp" alt="Portrait d'une femme souriante au bureau"/>
 				</div>
 			</div>
