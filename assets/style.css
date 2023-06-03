@@ -233,6 +233,10 @@ h1 a {
 	flex : 2;
 
 }
+.d-block{
+	height: auto;
+	display: block !important;
+}
 form {
 	display: flex;
 	flex-direction: column;
